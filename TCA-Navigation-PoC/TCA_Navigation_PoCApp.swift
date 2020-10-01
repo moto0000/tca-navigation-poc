@@ -11,7 +11,13 @@ import SwiftUI
 struct TCA_Navigation_PoCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView(
+            //     store: .init(
+            //         initialState: .init(),
+            //         reducer: contentReducer,
+            //         environment: ())
+            // )
+            ContentViewRoot()
         }
     }
 }
